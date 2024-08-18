@@ -1,3 +1,7 @@
+p {
+  color: #B2B7B7;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,128 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: Roboto Condensed, Roboto, Arial, sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  height: 100vh;
+}
+
+#kotak_sidebar {
+  width: 300px;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #D35400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px 0;
+}
+
+.profile {
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border: 8px solid #e86118;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.menu li a {
+  opacity:0.8;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px 0;
+}
+
+.menu li a:hover {
+  background-color: #E67E22;
+  border-radius: 5px;
+}
+
+.title_pad {
+  padding: 200px 0;
+}
+
+.title_font {
+  font-size: 50px;
+}
+
+.gray_font {
+  color: #B2B7B7;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #4D4D4D;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  background-color: #4D4D4D;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #333;
+}
+
+.linkedin {
+  background-color: #333;
+}
+
+.github {
+  background-color: #333;
+}
+
+.skills {
+  background-color: #1e8302;
+}
+
+.awards {
+  background-color: #1e8302;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
 }
