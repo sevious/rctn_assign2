@@ -55,13 +55,15 @@ body {
 }
 
 .sidebar {
+  height: 100%;
   width: 300px;
-  height: 100vh;
+  position: fixed;
+  overflow-x: hidden;
   background-color: #D35400;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 200px 0;
+  padding: 50px 0;
 }
 
 .profile {

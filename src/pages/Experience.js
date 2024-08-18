@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Experience extends Component {
     render() {
         return (
-            <div style={{padding:"120px 0"}}>
+            <div style={{padding:"120px 0"}} >
                 <h1 className="title_font"><b>EXPERIENCE</b></h1>
                 <br></br>
                 <div class="row">

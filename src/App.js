@@ -16,11 +16,11 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-      <div class="d-flex">
+      <div>
         <div id="kotak_sidebar">
           <Sidebar />
         </div>
-        <div class="p-5 flex-grow-1">
+        <div className="px-5" style={{marginLeft:"350px"}}>
           <Routes>
             <Route path="/" element={<About></About>}></Route>
             <Route path="/experience" element={<Experience></Experience>}></Route>
